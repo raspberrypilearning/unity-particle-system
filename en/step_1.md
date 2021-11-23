@@ -1,5 +1,7 @@
 Particle Systems use lots of small images to create graphical effects that make a 3D world come alive. 
 
+![An animated gif showing a candle with red and orange particles to represent a flickering flame. ](images/flame-particle.gif)
+
 Click in the Inspector and choose 'Effects' -> 'Particle System' to add a particle effect to your world. You can also add a Particle System as a child of another GameObject if that makes sense. 
 
 There are lots of settings you can experiment with to get different particle effects. 
@@ -12,4 +14,4 @@ Try adjusting these settings:
 + **Shape** - Controls the shape that particles appear from. The default is a Cone shape but it might make more sense for your particles to appear in a Sphere or a Cube area. 
 + **Max Particles** - The maximum number of particles that will be active at the same time. 
 
-<mark>It would be good if we could include some specific examples such as snow, smoke, volcano erupting.</mark>
+![Animated gif showing the Game view of the snow scene with particle system providing a snow effect.](images/snow-particles.gif)
