@@ -15,3 +15,7 @@ Try adjusting these settings:
 + **Max Particles**: The maximum number of particles that will be active at the same time. 
 
 ![Animated gif showing the Game view of the snow scene with a Particle System providing a snow effect.](images/snow-particles.gif)
+
+These settings create a snow effect. The 'Start Size' uses the option 'Random Between Two Constants'.
+
+![Snow particle settings with y position set to 13, x rotation set to 90, Shape set to Box with x scale set to 40 and y scale set to 40, Emission Rate over time set to 200,  Start lifetime set to 10, Star speed set to 3 and Start size set to between constants 0.1 to 0.3.](images/snow-particle-settings.png){:width="350px"}
