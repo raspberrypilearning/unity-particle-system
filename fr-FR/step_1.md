@@ -1,21 +1,21 @@
-Particle Systems use lots of small images to create graphical effects that make a 3D world come alive.
+Les Particles Systems utilisent de nombreuses petites images pour créer des effets graphiques qui donnent vie à un monde en 3D.
 
-![An animated gif showing a candle with red and orange particles to represent a flickering flame.](images/flame-particle.gif)
+![Un gif animé montrant une bougie avec des particules rouges et orange pour représenter une flamme vacillante.](images/flame-particle.gif)
 
-Click in the Inspector window and choose **Effects** > **Particle System** to add a particle effect to your world. You can also add a Particle System as a child of another GameObject if that makes more sense.
+Clique dans la fenêtre Inspector et choisis **Effects** > **Particle Systems** pour ajouter un effet de particules à ton monde. Tu peux aussi ajouter un Particle System en tant qu'enfant d'un autre GameObject, si cela a plus de sens.
 
-There are lots of settings you can experiment with to get different particle effects.
+Il y a beaucoup de paramètres avec lesquels tu peux expérimenter pour obtenir différents effets de particules.
 
-Try adjusting these settings:
-+ **Start Color**: Click on the colour to choose the colour for your particles.
-+ **Start Speed**: Control how fast your particles move.
-+ **Start Size**: Control the size of each particle.
-+ **Gravity Modifier**: Set to a positive number if you want your particles to fall to the ground.
-+ **Shape**: Controls the shape that particles appear from. The default is a Cone shape but it might make more sense for your particles to appear in a Sphere or a Cube area.
-+ **Max Particles**: The maximum number of particles that will be active at the same time.
+Essaie de régler ces paramètres :
++ **Start Color** : clique sur la couleur pour choisir la couleur de tes particules.
++ **Start Speed**: contrôle la vitesse à laquelle tes particules se déplacent.
++ **Start Size**: contrôle la taille de chaque particule.
++ **Gravity Modifier** : définis un nombre positif si tu veux que tes particules tombent sur le sol.
++ **Shape**: contrôle la forme à partir de laquelle les particules apparaissent. La forme par défaut est celle d'un cône, mais il peut être plus logique que tes particules apparaissent dans une sphère ou un cube.
++ **Max Particles** : le nombre maximum de particules qui seront actives en même temps.
 
-![Animated gif showing the Game view of the snow scene with a Particle System providing a snow effect.](images/snow-particles.gif)
+![Gif animé montrant la vue Game de la scène de neige avec un Particle System produisant un effet de neige.](images/snow-particles.gif)
 
-These settings create a snow effect. The 'Start Size' uses the option 'Random Between Two Constants'.
+Ces paramètres créent un effet de neige. La « Start Size » utilise l'option « Random Between Two Constants ».
 
-![Snow particle settings with y position set to 13, x rotation set to 90, Shape set to Box with x scale set to 40 and y scale set to 40, Emission Rate over time set to 200,  Start lifetime set to 10, Star speed set to 3 and Start size set to between constants 0.1 to 0.3.](images/snow-particle-settings.png){:width="350px"}
+![Paramètres des particules de neige avec position y définie sur 13, x rotation réglée sur 90, Shape définie sur Box avec x scale définie sur 40 et y scale sur 40, Emission Rate over time définie sur 200, Start lifetime définie sur 10, Start speed définie sur 3 et Start size définie entre les constantes 0.1 et 0.3.](images/snow-particle-settings.png){:width="350px"}
